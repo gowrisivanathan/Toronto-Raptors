@@ -1,0 +1,17 @@
+<resources>
+    <string name="contentDescription">TODO</string>
+    <string name="app_name">Toronto Raptors</string>
+    <string name="nameTextView">Kyle Lowry</string>
+    <string name="jerseyTextView">Jersey: 7</string>
+    <string name="positionTextView">Position: Point Guard (PG)</string>
+    <string name="draftTextView">Draft: Round 1, 24th by Memphis Grizzlies</string>
+    <string name="heightTextView">Height: 6-1</string>
+    <string name="weightTextView">Weight: 196</string>
+    <string name="ageTextView">Age: 33</string>
+    <string name="birthdayTextView">Birth date: 3/25/86</string>
+    <string name="nationalityTextView">Nationality: American</string>
+    <string name="experienceTextView">Experience: 13th Season</string>
+    <string name="collegeTextView">College: Villanova University</string>
+    <string name="textView">We the North. Let it Rip.</string>
+    <string name="buttonView">View Players</string>
+</resources>
