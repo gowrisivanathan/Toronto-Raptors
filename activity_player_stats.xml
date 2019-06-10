@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerStats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="63dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="199dp"
+            android:layout_height="209dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/lowry1_round"/>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:gravity="center_horizontal"
+            android:text="@string/nameTextView"
+            android:textColor="#d63031"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/jerseyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/jerseyTextView"
+            android:textColor="#2d3436"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/positionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/positionTextView"
+            android:textColor="#2d3436"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/draftTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/draftTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/heightTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/weightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/weightTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/ageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/ageTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/birthdayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/birthdayTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/nationalityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/nationalityTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/experienceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/experienceTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:id="@+id/collegeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="36sp"
+            android:text="@string/collegeTextView"
+            android:textColor="#2d3436"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
